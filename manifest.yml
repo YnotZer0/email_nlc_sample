@@ -1,0 +1,8 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: email-poc-idea
+  host: email-poc-idea
+  disk_quota: 512M

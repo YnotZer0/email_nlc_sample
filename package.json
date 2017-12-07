@@ -1,0 +1,20 @@
+{
+  "name": "email-poc-idea",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node emailpoc.js"
+  },
+  "dependencies": {
+    "cfenv": "^1.0.4",
+    "emailjs": "^1.0.12",
+    "express": "^4.16.2",
+    "imap": "^0.8.19",
+    "mailparser": "^2.1.0",
+    "watson-developer-cloud": "^2.42.0"
+  },
+  "repository": {},
+  "engines": {
+    "node": "4.x"
+  }
+}

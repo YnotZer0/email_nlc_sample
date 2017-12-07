@@ -1,0 +1,25 @@
+<br/>
+<h1>NLC Email PoC</h2>
+
+<div>
+  <p></p>
+</div>
+<div class="center">
+  <a class="btn btn-default" ng-click="getEmails()"><i class="fa fa-email"></i> Get Emails</a>
+  <a class="btn btn-default" ng-click="classify()"><i class="fa fa-cogs"></i> Classify</a>
+  <a class="btn btn-default" ng-click="sendToGroup()"><i class="fa fa-building"></i> Send To Group</a>
+</div>
+<br/>
+<div><span><b>From:</b> {{from}}</span></div>
+<div><span><b>Subject:</b> {{subject}}</span></div>
+<div><span>{{text}}</span></div>
+<br/>
+<div><span><b>NLC Classification</b></span></div>
+<div><span><b>Top Class:</b> {{top_class}}</span></div>
+</br/>
+<div><span>{{nlcResponse}}</span></div>
+<br/>
+<div>
+  <h3 ng-repeat="class in classes">{{class}}</h3>
+</div>
+
